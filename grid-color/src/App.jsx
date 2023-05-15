@@ -64,7 +64,7 @@ function App() {
       <span>  color: </span><input value={colors} onChange={(e) => (e.target.value > 7) ? setColors(7) : setColors(e.target.value)} />
         <button onClick={() => onSubmit()}>click Me!</button>
       </div>
-      <h1 style={{textAlign: 'center'}}>Most Occurrence Color {'{'} {mode(mostOccurrenceElem)} {'}'}</h1>
+      <h1 style={{textAlign: 'center'}}>Most Occurrence Color {'{'} <span style={{color:mode(mostOccurrenceElem)}}>{mode(mostOccurrenceElem)}</span> {'}'}</h1>
 
       <div className='randomClass' style={{ width: `${28 * entity.gridWidth}px`, marginInline: 'auto' }}>
         <ResponsiveGrid />
