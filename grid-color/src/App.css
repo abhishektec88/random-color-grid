@@ -16,3 +16,8 @@ body {
 .MuiGrid-root .MuiGrid-item .MuiGrid-grid-xs-2 .MuiGrid-grid-sm-4 .MuiGrid-grid-md-4 .css-kzeb69-MuiGrid-root {
   max-width: 35px;
 }
+
+.css-pljn4u-MuiGrid-root>.MuiGrid-item {
+  padding: 1px!important;
+}
+
