@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.MuiGrid-root .MuiGrid-item .MuiGrid-grid-xs-2 .MuiGrid-grid-sm-4 .MuiGrid-grid-md-4 .css-kzeb69-MuiGrid-root {
+  max-width: 35px;
+}
